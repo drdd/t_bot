@@ -65,7 +65,6 @@ def toVoice(filename, input_text):
         input=input_text
     )
     response.stream_to_file(filename)
-    response.aclose()
 
 
 load_dotenv()
